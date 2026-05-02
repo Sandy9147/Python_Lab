@@ -1,0 +1,18 @@
+Aim
+To write a Python program to demonstrate dictionary operations using a phonebook application.
+
+Algorithm
+Step 1: Start the program.
+Step 2: Create an empty dictionary called phonebook.
+Step 3: Ask the user how many entries they want to add.
+Step 4: Use a for loop to input name and phone number.
+Step 5: Store the name and phone number in the dictionary.
+Step 6: Display the complete phonebook.
+Step 7: Ask the user to enter a name to search and use get() to find the phone number.
+Step 8: Display dictionary values(), keys(), and items().
+Step 9: Create a copy of the dictionary using copy().
+Step 10: Add a new entry using update().
+Step 11: Ask the user for a name to remove and delete it using pop().
+Step 12: Remove the last inserted item using popitem().
+Step 13: Display the final phonebook.
+Step 14: Stop the program.
