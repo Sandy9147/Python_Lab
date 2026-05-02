@@ -1,0 +1,34 @@
+import re
+# Regular Expression
+text = "Hello world 123, hello python 456"
+print("Original Text:", text)
+print("-" * 50)
+# match()
+m = re.match(r"Hello", text)
+if m:
+    print("re.match():", m.group())
+else:
+    print("No match")
+# search()
+s = re.search(r"\d+", text)
+print("re.search():", s.group())
+# findall()
+fa = re.findall(r"\d+", text)
+print("re.findall():", fa)
+# finditer()
+print("re.finditer():")
+for i in re.finditer(r"\d+", text):
+    print("Value:", i.group(), "at position", i.start())
+# split()
+sp = re.split(r"[ ,]+", text)
+print("re.split():", sp)
+# sub()
+sub = re.sub(r"\d+", "Num", text)
+print("re.sub():", sub)
+# Date Validation
+date = input("\nEnter a date (DD/MM/YYYY): ")
+pattern = r"^\d{2}/\d{2}/\d{4}$"
+if re.match(pattern, date):
+    print("Valid date format")
+else:
+    print("Invalid date format")
