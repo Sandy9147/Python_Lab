@@ -1,0 +1,18 @@
+AIM
+(a) To implement NumPy and Pandas packages in Python.
+(b) To implement Matplotlib with Pandas for data visualization.
+
+ALGORITHM
+Part (a): NumPy and Pandas
+Start the program
+Import numpy and pandas
+Create a NumPy array
+Perform operations (sum, mean, max, min)
+Create a Pandas DataFrame
+Display the DataFrame
+Part (b): Matplotlib and Pandas
+Create another DataFrame for plotting
+Plot bar graph using plt.bar()
+Add labels and title
+Display graph using plt.show()
+Stop
