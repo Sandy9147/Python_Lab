@@ -1,0 +1,47 @@
+# Experiment 10
+# (a) Load, Clean and Explore Data
+# (b) Data Visualization
+
+import pandas as pd
+import matplotlib.pyplot as plt
+#(a) LOAD & CLEAN DATA
+data = {
+    "Name": ["A", "B", "C", "D", "E"],
+    "Marks": [80, 75, None, 90, 85],
+    "Age": [20, 21, 19, None, 22]
+}
+df = pd.DataFrame(data)
+print("Original Data:")
+print(df)
+# Explore data
+print("\nFirst 5 rows:")
+print(df.head())
+print("\nData Info:")
+print(df.info())
+print("\nMissing Values:")
+print(df.isnull().sum())
+# Clean data (remove missing values)
+df_clean = df.dropna()
+print("\nCleaned Data:")
+print(df_clean)
+print("\nSummary Statistics:")
+print(df_clean.describe())
+
+
+#(b) VISUALIZATION 
+# Bar Chart
+plt.bar(df_clean["Name"], df_clean["Marks"])
+plt.title("Marks of Students")
+plt.xlabel("Name")
+plt.ylabel("Marks")
+plt.show()
+# Line Chart
+plt.plot(df_clean["Name"], df_clean["Marks"], marker='o')
+plt.title("Marks Trend")
+plt.xlabel("Name")
+plt.ylabel("Marks")
+plt.show()
+# Pie Chart
+plt.pie(df_clean["Marks"], labels=df_clean["Name"], autopct="%1.1f%%")
+plt.title("Marks Distribution")
+plt.show()
