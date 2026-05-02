@@ -1,0 +1,41 @@
+Network = ["5G","Up to 10Gbps","6G","1ms","VR/AR","4G","Transport",
+           "Smart Factories","New Radio","mmwave","Sub-6 GHz",
+           "Spectrum","Frequency bands"]
+
+# Print list
+print(Network)
+# Slicing
+print(Network[1:5])
+# Append
+Network.append("Twin")
+print(Network)
+# Update element
+Network[4] = "WiFi"
+print(Network)
+# Remove element
+Network.remove("Transport")
+print(Network)
+# Extend list
+Network.extend(["Enable","Information"])
+print(Network)
+# Index
+L = Network.index("5G")
+print(L)
+# Copy list
+Network_copy = Network.copy()
+print(Network_copy)
+# Concatenation
+con = Network + Network_copy
+print(con)
+# For loop
+for i in Network:
+    print(i)
+# While loop
+i = 0
+while i < len(Network):
+    print(Network[i])
+    i += 1
+
+# Clear list
+Network.clear()
+print("After clear:", Network)
