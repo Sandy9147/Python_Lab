@@ -1,0 +1,21 @@
+Aim
+To write a Python program to demonstrate looping statements using for loop and while loop.
+
+Algorithm
+Part A – For Loop (Multiplication Table)
+Step 1: Start the program.
+Step 2: Input a number n from the user.
+Step 3: Use a for loop from 1 to 10.
+Step 4: Multiply n × i in each iteration.
+Step 5: Display the result.
+Step 6: Stop the program.
+
+Part B – While Loop (Factorial)
+Step 1: Start the program.
+Step 2: Input a number n from the user.
+Step 3: Initialize fact = 1 and i = 1.
+Step 4: Repeat the loop while i ≤ n.
+Step 5: Multiply fact = fact × i.
+Step 6: Increment i by 1.
+Step 7: Display the factorial value.
+Step 8: Stop the program.
