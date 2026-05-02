@@ -1,0 +1,21 @@
+a = int(input("Enter a value: "))
+b = int(input("Enter b value: "))
+# (a+b)^2 = a^2 + 2ab + b^2
+LHS = (a+b)*(a+b)
+RHS = (a*a) + (2*a*b) + (b*b)
+print("The eq are", LHS == RHS)
+# (a-b)^2 = a^2 - 2ab + b^2
+LHS = (a-b)*(a-b)
+RHS = (a*a) - (2*a*b) + (b*b)
+print("The eq are", LHS == RHS)
+# (a+b)(a-b) = a^2 - b^2
+LHS = (a+b)*(a-b)
+RHS = (a*a) - (b*b)
+print("The eq are", LHS == RHS)
+# a^3 + b^3 = (a+b)(a^2-ab+b^2)
+LHS = (a*a*a) + (b*b*b)
+RHS = (a+b)*((a*a)-(a*b)+(b*b))
+print("The eq are", LHS == RHS)
+LHS== a | b
+RHS = (a & b) + (a ^ b)
+print("The eq are", LHS == RHS)
