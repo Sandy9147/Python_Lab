@@ -1,0 +1,15 @@
+Aim
+To write a Python program to demonstrate Object-Oriented Programming concepts such as class & object, inheritance (single, multilevel, multiple, hierarchical, hybrid), polymorphism, and method overriding.
+
+Algorithm
+Step 1: Start the program.
+Step 2: Create a class Student with name and marks and display total marks.
+Step 3: Implement Single Inheritance using Person → Student class.
+Step 4: Implement Multilevel Inheritance using Person → Student → Result.
+Step 5: Implement Multiple Inheritance using HR and Salary classes inherited by Employee.
+Step 6: Implement Hierarchical Inheritance using Bank → Savings and Current classes.
+Step 7: Implement Hybrid Inheritance using Company, Employee, Manager, and Details classes.
+Step 8: Implement Polymorphism (Method Overloading) using same method with different parameters.
+Step 9: Implement Method Overriding using parent and child classes.
+Step 10: Display outputs for all concepts.
+Step 11: Stop the program.
