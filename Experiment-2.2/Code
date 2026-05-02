@@ -1,0 +1,14 @@
+# For Loop - Multiplication Table
+n = int(input("Enter a number: "))
+for i in range(1,11):
+    print(n*i)
+
+
+# While Loop - Factorial
+n = int(input("Enter a number: "))
+fact = 1
+i = 1
+while i <= n:
+    fact = fact * i
+    i = i + 1
+    print(fact)
