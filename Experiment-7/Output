@@ -1,0 +1,52 @@
+Name: Sandesh
+Marks: [80, 75, 90]
+Total: 245
+
+Enter name: Sandy
+Enter marks: 450
+Name: Sandy
+Marks: 450
+
+Enter name: Sahil
+Enter marks: 45
+Name: Sahil
+Marks: 45
+Fail
+
+Enter employee name: Anish
+Enter employee ID: 24HR0686
+Enter salary: 102000
+Name: Anish
+ID: 24HR0686
+Salary: 102000
+
+Enter bank name: IDBI
+Enter customer name: Sandesh
+Enter savings balance: 45678
+Bank: IDBI
+Name: Sandesh
+Savings Balance: 45678
+
+Enter bank name: IDBI
+Enter customer name: Sahil
+Enter current balance: 40867
+Bank: IDBI
+Name: Sahil
+Current Balance: 40867
+
+Enter company name: Vmware
+Enter employee name: Sandesh
+Enter manager name: Santosh
+
+--- Company Details ---
+Company: Vmware
+Employee: Sandesh
+Manager: Santosh
+
+2 values: 30
+3 values: 60
+
+Salary = 30000
+Salary = 30000
+Bonus = 20000
+Total Salary = 50000
