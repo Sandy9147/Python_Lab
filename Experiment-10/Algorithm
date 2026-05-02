@@ -1,0 +1,20 @@
+AIM
+(a) To load, clean and explore data using Python (Pandas).
+(b) To implement various data visualizations using Python (Matplotlib).
+
+ALGORITHM
+Part (a): Load, Clean & Explore Data
+Start the program
+Import pandas
+Create or load dataset into DataFrame
+Display first few rows using head()
+Check dataset info using info()
+Check missing values
+Remove missing values using dropna()
+Display summary statistics using describe()
+Part (b): Data Visualization
+Import matplotlib.pyplot
+Create plots: bar, line, and pie chart
+Add labels and titles
+Display graphs using plt.show()
+Stop
