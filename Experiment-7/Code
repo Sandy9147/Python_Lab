@@ -1,0 +1,149 @@
+# 1. Class & Object
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+    def display(self):
+        total = sum(self.marks)
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+        print("Total:", total)
+s1 = Student("Sandesh", [80, 75, 90])
+s1.display()
+
+
+# 2. Single Inheritance
+class Person:
+    def get_name(self):
+        self.name = input("\nEnter name: ")
+class Student1(Person):
+    def get_marks(self):
+        self.marks = int(input("Enter marks: "))
+    def display(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+s = Student1()
+s.get_name()
+s.get_marks()
+s.display()
+
+
+# 3. Multilevel Inheritance
+class Person2:
+    def get_name(self):
+        self.name = input("\nEnter name: ")
+class Student2(Person2):
+    def get_marks(self):
+        self.marks = int(input("Enter marks: "))
+class Result(Student2):
+    def show(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+        if self.marks >= 50:
+            print("Pass")
+        else:
+           print("Fail")
+r = Result()
+r.get_name()
+r.get_marks()
+r.show()
+
+
+# 4. Multiple Inheritance
+class HR:
+    def get_employee(self):
+        self.name = input("\nEnter employee name: ")
+        self.id = input("Enter employee ID: ")
+class Salary:
+    def get_salary(self):
+       self.salary = int(input("Enter salary: "))
+class Employee(HR, Salary):
+    def display(self):
+        print("Name:", self.name)
+        print("ID:", self.id)
+        print("Salary:", self.salary)
+e = Employee()
+e.get_employee()
+e.get_salary()
+e.display()
+
+
+# 5. Hierarchical Inheritance
+class Bank:
+    def get_bank(self):
+        self.bank = input("\nEnter bank name: ")
+        self.name = input("Enter customer name: ")
+class Savings(Bank):
+    def get_savings(self):
+        self.balance = int(input("Enter savings balance: "))
+    def display(self):
+        print("Bank:", self.bank)
+        print("Name:", self.name)
+        print("Savings Balance:", self.balance)
+class Current(Bank):
+    def get_current(self):
+        self.balance = int(input("Enter current balance: "))
+    def display(self):
+        print("Bank:", self.bank)
+        print("Name:", self.name)
+        print("Current Balance:", self.balance)
+
+s = Savings()
+s.get_bank()
+s.get_savings()
+s.display()
+c = Current()
+c.get_bank()
+c.get_current()
+c.display()
+
+
+# 6. Hybrid Inheritance
+class Company:
+    def get_company(self):
+        self.company = input("\nEnter company name: ")
+class Employee1(Company):
+    def get_employee(self):
+        self.ename = input("Enter employee name: ")
+class Manager(Company):
+    def get_manager(self):
+        self.mname = input("Enter manager name: ")
+class Details(Employee1, Manager):
+    def display(self):
+        print("\n--- Company Details ---")
+        print("Company:", self.company)
+        print("Employee:", self.ename)
+        print("Manager:", self.mname)
+d = Details()
+d.get_company()
+d.get_employee()
+d.get_manager()
+d.display()
+
+
+# 7. Polymorphism (Overloading)
+class A:
+    def add(self, a, b):
+        return a + b
+class B(A):
+    def add(self, a, b, c=0):
+        return a + b + c
+obj = B()
+print("\n2 values:", obj.add(10, 20))
+print("3 values:", obj.add(10, 20, 30))
+
+
+# 8. Method Overriding
+class Employee2:
+    def salary(self):
+        print("\nSalary = 30000")
+class Manager2(Employee2):
+    def salary(self):
+        super().salary()
+        print("Bonus = 20000")
+        print("Total Salary = 50000")
+e = Employee2()
+m = Manager2()
+
+e.salary()
+m.salary()
