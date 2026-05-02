@@ -1,0 +1,24 @@
+Original Data:
+  Name  Marks   Age
+0    A   80.0  20.0
+1    B   75.0  21.0
+2    C    NaN  19.0
+3    D   90.0   NaN
+4    E   85.0  22.0
+
+First 5 rows:
+(same as above)
+
+Missing Values:
+Name     0
+Marks    1
+Age      1
+
+Cleaned Data:
+  Name  Marks   Age
+0    A   80.0  20.0
+1    B   75.0  21.0
+4    E   85.0  22.0
+
+Summary Statistics:
+(count, mean, std, min, max values shown)
