@@ -1,0 +1,25 @@
+str = input("Enter a word: ")
+# Reverse
+print(str[::-1])
+# Count
+count = len(str)
+print(count)
+# Palindrome
+if str == str[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+# Upper case
+print(str.upper())
+# Lower case
+print(str.lower())
+# Capitalize
+print(str.capitalize())
+# Swap case
+print(str.swapcase())
+# Substring
+sub = input("Enter substring: ")
+if sub in str:
+    print("Exists")
+else:
+    print("Doesn't exist")
