@@ -1,0 +1,27 @@
+How many entries do you need? 2
+Enter a name: Sandy
+Enter a phone number: 9876543210
+Enter a name: Ravi
+Enter a phone number: 9123456780
+Full Phonebook:
+{'Sandy': '9876543210', 'Ravi': '9123456780'}
+Using get():
+Enter name to search: Sandy
+9876543210
+Using values():
+dict_values(['9876543210', '9123456780'])
+Using keys():
+dict_keys(['Sandy', 'Ravi'])
+Using items():
+dict_items([('Sandy', '9876543210'), ('Ravi', '9123456780')])
+Using copy():
+{'Sandy': '9876543210', 'Ravi': '9123456780'}
+Using update():
+{'Sandy': '9876543210', 'Ravi': '9123456780', 'K': '1234567890'}
+Using pop():
+Enter name to remove: Ravi
+9123456780
+Using popitem():
+('K', '1234567890')
+Final Phonebook:
+{'Sandy': '9876543210'}
