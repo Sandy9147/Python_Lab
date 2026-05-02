@@ -1,0 +1,19 @@
+NumPy Array: [ 5 10 15 20 25]
+Sum: 75
+Mean: 15.0
+Maximum: 25
+Minimum: 5
+
+Pandas DataFrame:
+  Name  Marks
+0    A     80
+1    B     75
+2    C     90
+3    D     85
+
+IPL Data:
+  Team  Runs
+0   CSK   185
+1    MI   150
+2   RCB   200
+3   KKR   170
