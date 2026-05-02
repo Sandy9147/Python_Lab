@@ -1,0 +1,24 @@
+AIM
+To study and implement Regular Expression operations such as match(), search(), findall(), finditer(), split(), sub() and to validate date format (DD/MM/YYYY) using Python.
+
+ALGORITHM
+Part A: Regular Expression
+Start the program
+Import re module
+Initialize a string
+Print original text
+Use re.match() to check starting word
+Use re.search() to find first number
+Use re.findall() to find all numbers
+Use re.finditer() to display values with positions
+Use re.split() to split string
+Use re.sub() to replace numbers
+Display all results
+
+Part B: Date Validation
+Take input date from user
+Define pattern for DD/MM/YYYY
+Check using re.match()
+If match → print valid
+Else → print invalid
+Stop
