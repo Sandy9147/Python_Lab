@@ -1,0 +1,19 @@
+Aim
+To write a Python program to demonstrate tuple operations such as accessing elements, length of tuple, nested tuple, concatenation, membership test, and built-in functions.
+
+Algorithm
+Step 1: Start the program.
+Step 2: Create three tuples:
+t1 = (1,2,3)
+t2 = (230,36,200)
+t3 = ("Apples","Banana","Watermelon","Dragon fruit")
+Step 3: Print the original tuples.
+Step 4: Access elements from tuples using index values.
+Step 5: Find the length of each tuple using len() function.
+Step 6: Create a nested tuple by combining t1 and t3.
+Step 7: Perform concatenation of two tuples.
+Step 8: Check membership using in operator.
+Step 9: Take a fruit name from the user and check if it exists in the tuple.
+Step 10: Use built-in functions like max(), min(), and sum() on a numeric tuple.
+Step 11: Display the results.
+Step 12: Stop the program.
