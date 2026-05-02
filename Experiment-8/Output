@@ -1,0 +1,12 @@
+Original Text: Hello world 123, hello python 456
+--------------------------------------------------
+re.match(): Hello
+re.search(): 123
+re.findall(): ['123', '456']
+re.finditer():
+Value: 123 at position 12
+Value: 456 at position 30
+re.split(): ['Hello', 'world', '123', 'hello', 'python', '456']
+re.sub(): Hello world Num, hello python Num
+Enter a date (DD/MM/YYYY): 04/02/2026
+Valid date format
